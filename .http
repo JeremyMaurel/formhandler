@@ -1,0 +1,10 @@
+###TESTER LA ROUTE POST
+
+POST http://localhost:5555/send-email
+Content-Type: application/json
+
+{
+    "name": "Julien",
+    "email":"Julien@gmail.com",
+    "message":"Bonjour, je vous contacte pour ..."
+}
